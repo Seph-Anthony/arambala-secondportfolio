@@ -18,35 +18,35 @@ li { display: inline-block; list-style: none; font-weight: 500; margin: 0 5px; }
 .profilepic p b { color: #222222; }
 .pro { text-align: center; border-radius: 10px; border-style: hidden; margin: 10px auto; max-width: 200px; background-color: #FFC107; padding: 5px; }
 .pro:hover { background-color: darkgoldenrod; }
-.outerproject { box-shadow: 0 8px 16px rgba(0, 0, 0, 0.80); flex: 1; border-radius: 10px; padding: 20px; margin: 30px auto; max-width: 80%; text-align: center; }
-.projects, .project2 { margin: 20px auto; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; }
-.thisismyproject, .secondproject { box-shadow: 0 8px 16px rgba(0, 0, 0, 0.80); max-width: 150px; width: 100%; object-fit: cover; border: none; border-radius: 10px; background-color: #FFC107; padding: 10px; }
-.thisismyproject:hover{max-width: 160px;}
-.secondproject:hover{max-width: 160px;}
+.outerproject{ display:flex; flex-direction: row; align-items: stretch; justify-content: center;  flex: 1; border-radius: 10px; padding: 20px; margin: 30px auto; width:90%; max-width: 1050px; text-align: center; gap: 20px; flex-wrap: wrap; }
+.projects, .project2 { flex:1; padding:10px; border-radius:10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50);  margin: 20px auto; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; max-width:500px; width:90%;}
+.thisismyproject, .secondproject{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); max-width: 150px; width: 100%; object-fit: cover; border: none; border-radius: 10px; background-color: #FFC107; padding: 10px; height: 150px; text-align: center; }
+.thisismyproject:hover{max-width: 160px; height:160px}
+.secondproject:hover{max-width: 160px; height:160px;}
 .projectpicture, .projectpicture2 { flex: 1; min-width: 250px; margin: 0; }
-
-.explanation, .explanation2 { border-style: solid; flex-direction: column; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.80); padding: 15px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; line-height: 1.3; flex: 2; min-width:100px; max-width: 200px; margin: 0; }
+.des{font-weight: 500; text-align: center; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);  }
+.prosection{ letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
+.explanation, .explanation2{   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); text-align: center; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); flex-direction: column; border-radius: 10px; padding: 15px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; line-height: 1.3; flex: 2; min-width: 100px; }
 .outerproject h4 { padding: 3px; border-radius: 10px; margin: 10px auto; max-width: 200px; border: none; background: #FFC107; letter-spacing: 5px; font-size: 20px; }
-.EXPLANATION, .explanationnasad { font-family: 'Poppins', sans-serif; font-size: 10px; margin-bottom: 10px; }
+.EXPLANATION, .explanationnasad { font-family: 'Poppins', sans-serif; font-size: 20px; margin-bottom: 10px; }
 .projecttwo { text-align: center; border-radius: 10px; letter-spacing: 3px; font-family: 'Poppins', sans-serif; padding: 3px; margin-bottom: 40px; background: #FFC107; font-size: 20px; }
 html { scroll-behavior: smooth; }
 .description a { color: black; text-decoration: none; }
-.outerhobby { justify-content: center; align-items: center; padding: 10px; margin: 30px auto; max-width: 50%; flex-direction: column; display: flex; border: none; border-radius: 10px; }
-.skilldes { margin: 10px auto; max-width: 200px; text-align: center; font-family: 'Poppins', sans-serif; padding: 3px; border-radius: 10px; border: none; background: #FFC107; letter-spacing: 5px; font-size: 20px; }
+.outerhobby{ justify-content: center; align-items: stretch; padding: 10px; margin: 30px auto; max-width: 700px; flex-direction: row; display: flex; border: none; border-radius: 10px; gap: 20px; }
+.skilldes { letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
 .gym:hover{max-width:210px;}
 .reading:hover{max-width: 210px;}
-.gym{object-fit: cover; border: none; border-radius: 10px; padding: 5px; background-color: #FFC107; width: 90%; max-width: 200px; height: 230px; } 
-.reading { object-fit: cover; border: none; border-radius: 10px; padding: 5px; background-color: #FFC107; width: 90%; max-width: 200px; height: 230px; }
-.firsthobby, .secondhobby { margin-bottom: 30px; text-align: center; border: none; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); width: 100%; padding: 20px; border-style: solid; box-sizing: border-box; }
-.back { color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; border-radius: 10px; margin: 5px auto; max-width: 100px; text-align: center; }
+.gym, .reading{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); object-fit: cover; border: none; border-radius: 10px; padding: 5px; background-color: #FFC107; width: 90%; max-width: 200px; height: 230px; }
+.firsthobby, .secondhobby{  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); margin-bottom: 30px; text-align: center; border: none; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 20px; box-sizing: border-box; flex: 1; display: flex; flex-direction: column; justify-content: space-between; align-items:center;}
+.back { color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; border-radius: 10px; margin: 5px auto; max-width: 100px; text-align: center; padding:10px;}
 .back:hover { background-color: darkgoldenrod; }
 .backbutton { text-decoration: none; }
 .back2 { border-radius: 10px; padding: 10px; color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; margin: 5px auto; max-width: 100px; text-align: center; }
 .backbutton2 { text-decoration: none; }
 .back2:hover { background-color: darkgoldenrod; }
 .thisisme { width: 50px; border-radius: 200px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 5px; background-color: #4A4A4A; margin-right: 15px; }
-.outercontacts { justify-content: center; align-items: center; padding: 10px; margin: 30px auto; max-width: 70%; flex-direction: column; display: flex; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.80); border: none; border-radius: 10px; }
-.contact { text-align: center; font-family: 'Poppins', sans-serif; padding: 3px; border-radius: 10px; border: none; background: #FFC107; letter-spacing: 5px; font-size: 20px; margin: 10px auto; max-width: 200px; }
+.outercontacts { flex:1; justify-content: center; align-items: center; padding: 10px; margin: 30px auto; max-width: 70%; flex-direction: column; display: flex;  border: none; border-radius: 10px; align-items: stretch; }
+.contact { letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
 .facebookig, .emailogcontact,.forgithub { display: flex; padding: 5px; box-sizing: border-box; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; }
 .instagram, .number, .facebook, .email, .panghub { margin: 5px; font-family: 'Poppins', sans-serif; text-align: center; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.80); padding: 5px; display: flex; align-items: center; justify-content: center; flex-direction: column; flex: 1; min-width: 200px; font-size: 12px;}
 .pesbok, .aygi, .emil, .gethab, .contek { width: 40px; border-radius: 100px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 5px; margin: 5px; border: none; border-style: hidden; }
