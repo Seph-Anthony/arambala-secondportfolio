@@ -1,16 +1,24 @@
+/* Style */
 body { background-color: #FAF9F6; font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif; padding: 20px; box-sizing: border-box; margin: 0; color: #333333; }
+html { scroll-behavior: smooth; }
+.mainwrapper { margin: 1px auto; flex-direction: column; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; text-align: center; padding: 20px 0; max-width: 1200px; }
+.ubos { text-align: center; margin: 20px auto; }
+hr { border-style: solid; border-color: #222222; width:90%; margin:30px; }
+/* Navigation Part */
 .navbar { background-color: #FFC107; border-radius: 10px; padding: 10px; border: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
 .navdiv { display: flex; align-items: center; justify-content: space-between; padding: 0 15px; flex-wrap: wrap; }
 .title { margin-left: 5px; display: flex; align-items: center; font-size: 30px; font-weight: 700; font-family: 'Poppins', sans-serif; letter-spacing: 3px; }
 .navbar a { text-decoration: none; color: #333333; }
 .navbar a:hover { background-color: darkgoldenrod; padding: 3px 8px; border: none; border-radius: 8px; }
 .in{  display: inline-block; list-style: none; font-weight: 900; margin: 0 5px; }
-.mainwrapper { margin: 1px auto; flex-direction: column; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; text-align: center; padding: 20px 0; max-width: 1200px; }
+.thisisme { width: 50px; border-radius: 200px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 5px; background-color: #4A4A4A; margin-right: 15px; }
+/* About Me Part */
 .welcome { text-align: center; font-size: 2em; margin-top: 30px; margin-bottom: 20px; font-weight: 600; color: #4A4A4A; }
 .outerhome { flex: 1; display: flex; flex-direction: row; align-items: flex-start; justify-content: center; gap: 30px; max-width: 90%; margin: 0 auto; flex-wrap: wrap; }
 .description { margin-top: 30px; flex-basis: 500px; max-width: 100%; background-color: #FFFFFF; padding: 30px; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); text-align: left; }
 .description h3 { font-size: 2.5em; margin-bottom: 10px; line-height: 1.2; color: #222222; }
 .description p { font-size: 1.1em; line-height: 1.6; color: #555555; }
+.description a { color: black; text-decoration: none; }
 .profilepic { background-color: #FAF9F6; border: none; border-radius: 10px; padding: 20px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); }
 .akoimg { object-fit: cover; width: 250px; height: 250px; border: none; background-color: #FFC107; border-radius: 50%; padding: 10px; display: block; margin: 0 auto 20px auto; }
 .akoimg:hover{width: 260px; height: 260px;}
@@ -18,6 +26,8 @@ body { background-color: #FAF9F6; font-family: 'Inter', 'Roboto', 'Open Sans', s
 .profilepic p b { color: #222222; }
 .pro { text-align: center; border-radius: 10px; border-style: hidden; margin: 10px auto; max-width: 200px; background-color: #FFC107; padding: 5px; }
 .pro:hover { background-color: darkgoldenrod; }
+/* Projects Part */
+.prosection{ letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
 .outerproject{ display:flex; flex-direction: row; align-items: stretch; justify-content: center;  flex: 1; border-radius: 10px; padding: 20px; margin: 30px auto; width:90%; max-width: 1050px; text-align: center; gap: 20px; flex-wrap: wrap; }
 .projects, .project2 { flex:1; padding:10px; border-radius:10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50);  margin: 20px auto; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; max-width:500px; width:90%;}
 .thisismyproject, .secondproject{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); max-width: 150px; width: 100%; object-fit: cover; border: none; border-radius: 10px; background-color: #FFC107; padding: 10px; height: 150px; text-align: center; }
@@ -27,45 +37,47 @@ body { background-color: #FAF9F6; font-family: 'Inter', 'Roboto', 'Open Sans', s
 .hab{width: 40px; border-radius: 100px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 5px; margin: 5px; border: none; border-style: hidden;}
 .des{font-weight: 500; text-align: center; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);  }
 .hab:hover{background-color: #FFC107; padding:5px; border-radius: 100px; width:50px}
-.prosection{ letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
 .explanation, .explanation2{   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); text-align: center; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); flex-direction: column; border-radius: 10px; padding: 15px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; line-height: 1.3; flex: 2; min-width: 100px; }
 .outerproject h4 { padding: 3px; border-radius: 10px; margin: 10px auto; max-width: 200px; border: none; background: #FFC107; letter-spacing: 5px; font-size: 20px; }
 .EXPLANATION, .explanationnasad { font-family: 'Poppins', sans-serif; font-size: 20px; margin-bottom: 10px; }
 .projecttwo { text-align: center; border-radius: 10px; letter-spacing: 3px; font-family: 'Poppins', sans-serif; padding: 3px; margin-bottom: 40px; background: #FFC107; font-size: 20px; }
-html { scroll-behavior: smooth; }
-.description a { color: black; text-decoration: none; }
-.codelang{text-decoration: none; font-weight:900; display: flex; align-items: center; justify-content: center; }
+/* Skills and Hobbies Part */
+.skilldes { letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
 .outerhobby{ flex:1; flex-wrap: wrap;  justify-content:center; align-items: stretch; padding: 10px; margin: 10px auto; max-width: 850px; flex-direction: row; display: flex; border-radius: 10px; gap: 20px; }
 .outerhobby2{ flex:1; flex-wrap: wrap;  justify-content:center; align-items: stretch; padding: 10px; margin: 10px auto; max-width: 850px; flex-direction: row; display: flex; border-radius: 10px; gap: 20px;}
-.skilldes { letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
+.codelang{text-decoration: none; font-weight:900; display: flex; align-items: center; justify-content: center; }
+.firsthobby, .secondhobby, .thirdhobby, .fourthhobby, .fifthhobby, .sixthhobby{flex:1 1 250px; margin:0 auto 30px auto; font-size:15px;  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);  text-align: center; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-start; align-items:center; }
+.gym, .reading, .coding{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); object-fit: cover; border: none; border-radius: 10px; padding: 5px; background-color: #FFC107; width: 100%; max-width: 200px; height: 230px; }
+.html, .language, .css{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); object-fit: cover; border: none; border-radius: 10px; padding: 5px;  width: 100%; max-width: 200px; height: 230px;}
 .gym:hover{max-width:210px;}
 .reading:hover{max-width: 210px;}
 .coding:hover{max-width: 210px;}
 .language:hover{max-width: 210px;}
 .html:hover{max-width: 210px;}
 .css:hover{max-width: 210px;}
-.gym, .reading, .coding{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); object-fit: cover; border: none; border-radius: 10px; padding: 5px; background-color: #FFC107; width: 100%; max-width: 200px; height: 230px; }
-.html, .language, .css{ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.50); object-fit: cover; border: none; border-radius: 10px; padding: 5px;  width: 100%; max-width: 200px; height: 230px;}
-.firsthobby, .secondhobby, .thirdhobby, .fourthhobby, .fifthhobby, .sixthhobby{flex:1 1 250px; margin:0 auto 30px auto; font-size:15px;  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);  text-align: center; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-start; align-items:center; }
-.back { color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; border-radius: 10px; margin: 5px auto; max-width: 100px; text-align: center; padding:10px;}
-.back:hover { background-color: darkgoldenrod; }
-.backbutton { text-decoration: none; }
-.back2 { border-radius: 10px; padding: 10px; color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; margin: 5px auto; max-width: 100px; text-align: center; }
-.backbutton2 { text-decoration: none; }
-.back2:hover { background-color: darkgoldenrod; }
-.thisisme { width: 50px; border-radius: 200px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 5px; background-color: #4A4A4A; margin-right: 15px; }
-.outercontacts { flex:1; justify-content: center; align-items: center; padding: 10px; margin: 30px auto; max-width: 1000px; width: 90%; flex-direction: column; display: flex;   border-radius: 10px;  }
+/* Contact Part */
 .contact { letter-spacing:3px; font-family: 'Poppins',serif; font-weight: 800; font-size:23px; }
-.forgemail{gap:15px;  width:100%; max-width:600px; display:flex; flex-wrap: wrap; flex-direction: row; justify-content: stretch; align-items: center; flex:1;}
-.gitogcontact{ gap:15px;  width:100%; max-width:600px; display:flex; flex-direction: row; flex-wrap: wrap; flex:1; justify-content: center; align-items: stretch;}
+.outercontacts { flex:1; justify-content: center; align-items: center; padding: 10px; margin: 30px auto; max-width: 1000px; width: 90%; flex-direction: column; display: flex;   border-radius: 10px;  }
 .facebookig{ gap:15px;   width:100%; max-width:600px;display:flex; flex-direction: row; flex-wrap: wrap; flex:1; justify-content: center; align-items: stretch;}
+.gitogcontact{ gap:15px;  width:100%; max-width:600px; display:flex; flex-direction: row; flex-wrap: wrap; flex:1; justify-content: center; align-items: stretch;}
+.forgemail{gap:15px;  width:100%; max-width:600px; display:flex; flex-wrap: wrap; flex-direction: row; justify-content: stretch; align-items: center; flex:1;}
 .instagram, .number, .facebook, .email, .panghub { margin: 15px; font-family: 'Poppins', sans-serif; text-align: center; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.80); padding: 5px; display: flex; align-items: center; justify-content: center; flex-direction: column; flex: 1; max-width: 300px; width:100%; font-size: 12px;}
 .pesbok, .aygi, .emil, .gethab, .contek { width: 40px; border-radius: 100px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40); padding: 5px; margin: 5px; border: none; border-style: hidden; }
 .pangcolor { padding: 3px; border-radius: 10px; margin: 5px; }
-hr { border-style: solid; border-color: #222222; width:90%; margin:30px; }
 .linkforig, .linkforfb, .linkforgit { text-decoration: none; color:black; }
 .linkforig:hover, .linkforfb:hover, .linkforgit:hover { background-color:#FFC107; border:none; border-radius:50px; padding-right: 5px; }
-.back:hover{background-color: darkgoldenrod;}
-.ubos { text-align: center; margin: 20px auto; }
+/* Design for Back Buttons */
+.back { color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; border-radius: 10px; margin: 5px auto; max-width: 100px; text-align: center; padding:10px;}
+.backbutton { text-decoration: none; }
+.back:hover { background-color: darkgoldenrod; }
+.back2 { border-radius: 10px; padding: 10px; color: #222222; font-family: 'Poppins', sans-serif; background-color: #FFC107; margin: 5px auto; max-width: 100px; text-align: center; }
+.backbutton2 { text-decoration: none; }
+.back2:hover { background-color: darkgoldenrod; }
+
+
+
+
+
+
 
 
